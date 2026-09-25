@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+@theme {
+  --color-bg:      #080808;
+  --color-bg1:     #0f0f0f;
+  --color-bg2:     #141414;
+  --color-bg3:     #1c1c1c;
+  --color-border:  #1e1e1e;
+  --color-border2: #2a2a2a;
+  --color-text2:   #888888;
+  --color-text3:   #444444;
+  --color-accent:  #e8ff47;
+  --color-blue:    #4d7cff;
+  --color-red:     #ff4d4d;
+  --color-green:   #4dffb4;
+  --color-orange:  #ff9900;
+  --color-purple:  #a78bfa;
+  --color-text:    #f0f0f0;
+  --font-sans: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "Space Mono", monospace;
+  --text-display: 52px;
+  --text-hero: 36px;
+}
+
+:root {
+  --bg: #080808;
+  --bg1: #0f0f0f;
+  --bg2: #141414;
+  --bg3: #1c1c1c;
+  --border: #1e1e1e;
+  --border2: #2a2a2a;
+  --text: #f0f0f0;
+  --text2: #888888;
+  --text3: #444444;
+  --accent: #e8ff47;
+  --blue: #4d7cff;
+  --red: #ff4d4d;
+  --green: #4dffb4;
+  --orange: #ff9900;
+  --purple: #a78bfa;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: var(--bg); color: var(--text); font-family: 'Space Grotesk', sans-serif; }
