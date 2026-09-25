@@ -6,7 +6,7 @@ Interactive map dashboard visualizing four linked layers across EU NUTS2 regions
 
 | Layer | Source |
 |---|---|
-| `reform-impact` | Avg. population change in demoted capitals, 1999–2019 (PL-Capital-Reform-DiD) |
+| `reform-impact` | Avg. population change in demoted capitals, 1999–2019 — **Poland only** (13 NUTS2 regions); `reformStatus`/`popChange20yr` are `null` for all other EU regions (PL-Capital-Reform-DiD) |
 | `innovation` | Innovation archetype score by NUTS2 region (EU-Innovation-Panel) |
 | `investment` | Deep-tech investment suitability score (EU-MegaCampus-Siting) |
 | `gdp` | GDP per capita, PPS (Eurostat REGIO) |
